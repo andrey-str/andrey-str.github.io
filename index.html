@@ -5,9 +5,13 @@
       $("#link2").on("click", function(){
         window.location = "mapboxdirectionpoc://"
       });
+      document.getElementById("myButton").onclick = function () {
+        location.href = "mapboxdirectionpoc://";
+    };
     </SCRIPT>
   </HEAD>
   <BODY>
+    <button id="myButton" class="float-left submit-button" >Home</button>
     <a id="link1" href="http://andrey-str.github.io">Hello World</a><br><br>
     <a id="link2" href="mapboxdirectionpoc://andrey-str.github.io">Hello World</a>
   </BODY>
